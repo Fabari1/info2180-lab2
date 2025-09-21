@@ -1,0 +1,120 @@
+header {
+    background-color: #289dd2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#First-Blog,
+#Second-Blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 800px;
+    height: auto;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#hiking-info,
+#blog-info {
+    margin-right: 0; /* Remove flex margin */
+}
+
+.clip-art {
+    border-radius: 10px;
+    max-width: 250px;
+    height: auto;
+    
+}
+
+.plane {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.sidebar {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar a {
+    color: #4BA3D9;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1d3557;
+    color: white;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+aside {
+    padding: 0px;
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Blog {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.date {
+    color: #acacac;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #4fe75b;
+    margin-bottom: 10px;
+}
+
+.social h3,
+.archives h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4fe75b;
+}
